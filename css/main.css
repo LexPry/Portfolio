@@ -17,6 +17,11 @@ html {
   line-height: 1.4;
 }
 
+body {
+  background-color: lightsteelblue;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Fira Code Medium", 'Corben', Georgia, Times, serif;
 }
@@ -104,7 +109,7 @@ textarea {
 }
 
 .top-bar {
-  background-color: darkslategrey;
+  border-bottom: 2px solid goldenrod;
 }
 
 h1 {
@@ -112,31 +117,34 @@ h1 {
   align-content: center;
 }
 
-#github-link {
-  height: 100px;
-  width: auto;
-  margin: 5px;
-}
-
-#twitter-link {
-  height: 100px;
-  width: auto;
-  margin: 5px;
-}
-
-body {
-  background-color: lightsteelblue;
-}
-
-#projectsList, .description, li {
-  flex: content;
-  margin: 40px;
-}
-
 h2 {
-  margin: 100px auto 75px;
+  margin: 50px;
   text-align: center;
 }
+
+#github-link, #twitter-link {
+  height: 125px;
+  width: auto;
+  margin: 20px;
+  display: inline;
+}
+
+.aboutMe {
+  border-bottom: 2px solid black;
+  width: fit-content;
+  margin: 10px;
+  float: left;
+}
+
+.projectsList {
+  float: left;
+}
+
+.projectsList, .description, li {
+  margin: 50px;
+  width: fit-content;
+}
+
 
 /* ==========================================================================
    Helper classes
